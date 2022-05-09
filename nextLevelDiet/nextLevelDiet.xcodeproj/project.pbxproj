@@ -11,6 +11,8 @@
 		A26BA1342829944200155D7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BA1332829944200155D7A /* ContentView.swift */; };
 		A26BA1362829944300155D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26BA1352829944300155D7A /* Assets.xcassets */; };
 		A26BA1392829944300155D7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26BA1382829944300155D7A /* Preview Assets.xcassets */; };
+		A2D20E6B2829A3CB001AB812 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D20E6A2829A3CB001AB812 /* Home.swift */; };
+		A2D20E6D2829A770001AB812 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D20E6C2829A770001AB812 /* CustomDatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A26BA1332829944200155D7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A26BA1352829944300155D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A26BA1382829944300155D7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2D20E6A2829A3CB001AB812 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A2D20E6C2829A770001AB812 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		A26BA1302829944200155D7A /* nextLevelDiet */ = {
 			isa = PBXGroup;
 			children = (
+				A2D20E672829A2A1001AB812 /* Model */,
+				A2D20E662829A284001AB812 /* View */,
 				A26BA1312829944200155D7A /* nextLevelDietApp.swift */,
 				A26BA1332829944200155D7A /* ContentView.swift */,
 				A26BA1352829944300155D7A /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				A26BA1382829944300155D7A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2D20E662829A284001AB812 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2D20E6A2829A3CB001AB812 /* Home.swift */,
+				A2D20E6C2829A770001AB812 /* CustomDatePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2D20E672829A2A1001AB812 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D20E6D2829A770001AB812 /* CustomDatePicker.swift in Sources */,
 				A26BA1342829944200155D7A /* ContentView.swift in Sources */,
+				A2D20E6B2829A3CB001AB812 /* Home.swift in Sources */,
 				A26BA1322829944200155D7A /* nextLevelDietApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
